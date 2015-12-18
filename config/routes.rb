@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :narratives
   resources :inventories
   resources :characters
   resources :users
